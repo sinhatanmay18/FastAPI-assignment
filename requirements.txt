@@ -1,0 +1,4 @@
+fastapi==0.65.2
+uvicorn==0.13.4
+sqlalchemy==1.4.15
+mysqlclient==2.0.3
