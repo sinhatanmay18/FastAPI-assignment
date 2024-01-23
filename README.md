@@ -12,8 +12,13 @@ rectangle’s area and the number itself.
 
 
 ## Prerequisites:
+ 
+• Python 3.6+ <br>
+• Virtual Environment
 
-• Python 3.6+
+## Set up a Virtual Environment
+    python -m venv venv
+    On Windows use `venv\Scripts\activate`
 
 ## Install dependencies
     1. pip install -r requirements.txt
