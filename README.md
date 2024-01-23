@@ -41,9 +41,10 @@ Built With: <br>
 
 Developed a Python function largest_rectangle(matrix) to find the largest rectangle formed by similar numbers in a 2D matrix.
 The function iterates through the matrix, calculating the area of potential rectangles, and returns the largest area and the number that forms it.
-Setting Up a FastAPI Application:
 
-## 2. Created a FastAPI application to expose the largest_rectangle functionality as an API endpoint.
+
+## 2.Setting Up a FastAPI Application:
+Created a FastAPI application to expose the largest_rectangle functionality as an API endpoint.
 The FastAPI service includes a POST endpoint /largest-rectangle that accepts a matrix in JSON format and returns the result of the largest_rectangle function.
 
 
