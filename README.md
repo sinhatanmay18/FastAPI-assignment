@@ -30,7 +30,24 @@ rectangle’s area and the number itself.
 ## Running the Application
     uvicorn main:app --reload
 
-   
+## API Endpoint (POST)
+    http://127.0.0.1:8000/input-rectangle
+
+
+## Sample request:
+    {
+    "matrix": [
+        [1,1,1,1,1,1],
+        [1,1,1,0,0,0],
+        [1,1,1,1,1,1],
+        [1,1,1,1,1,1],
+        [1,1,1,1,1,1]
+    ]
+    }  
+
+## Sample Response:
+    [1, 18]
+     
 
 Built With: <br>
   <a href="https://fastapi.tiangolo.com/" target="_blank">FastAPI</a> - The web framework used <br>
@@ -70,23 +87,4 @@ The middleware is added to the FastAPI application to automatically log all requ
 
 ## 6.Running and Testing the Application:
 Running the FastAPI server using Uvicorn and testing the API endpoints using Postman.
-
-## API Endpoint (POST)
-    http://127.0.0.1:8000/input-rectangle
-
-
-## Sample request:
-    {
-    "matrix": [
-        [1,1,1,1,1,1],
-        [1,1,1,0,0,0],
-        [1,1,1,1,1,1],
-        [1,1,1,1,1,1],
-        [1,1,1,1,1,1]
-    ]
-    }  
-
-## Sample Response:
-    [1, 18]
-     
 
