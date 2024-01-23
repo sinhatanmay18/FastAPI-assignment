@@ -21,11 +21,15 @@ rectangle’s area and the number itself.
     On Windows use `venv\Scripts\activate`
 
 ## Install dependencies
-    1. pip install -r requirements.txt
+    pip install -r requirements.txt
 
+   
+## Configure your MySQL connection in database.py
+    URL_Database = 'mysql://{username}:{password}@localhost:{port}/{schema_name}'
 
 ## Running the Application
-    1. uvicorn main:app --reload
+    uvicorn main:app --reload
+
    
 
 Built With: <br>
@@ -51,9 +55,6 @@ The FastAPI service includes a POST endpoint /largest-rectangle that accepts a m
 Set up a connection to a MySQL database using SQLAlchemy ORM.
 Created SQLAlchemy models to represent the data structure for logging requests and responses in the database.
 Configured the database connection in database.py and defined the database model in models.py.
-
-### Configure your MySQL connection in database.py
-    URL_Database = 'mysql://{username}:{password}@localhost:{port}/{schema_name}'
 
 
 ## 4. Creating Loggers:
