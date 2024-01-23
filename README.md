@@ -53,6 +53,9 @@ Set up a connection to a MySQL database using SQLAlchemy ORM.
 Created SQLAlchemy models to represent the data structure for logging requests and responses in the database.
 Configured the database connection in database.py and defined the database model in models.py.
 
+### Configure your MySQL connection in database.py
+    URL_Database = 'mysql://{username}:{password}@localhost:{port}/{schema_name}'
+
 
 ## 4. Creating Loggers:
 
