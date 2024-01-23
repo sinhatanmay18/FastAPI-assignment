@@ -1,0 +1,28 @@
+2024-01-22 21:23:24,013 - INFO - Starting API
+2024-01-22 21:23:54,752 - INFO - Starting API
+2024-01-22 21:24:34,894 - INFO - Starting API
+2024-01-22 21:25:59,870 - INFO - Starting API
+ 2024-01-22 21:40:18,737 - INFO - Starting API 
+ 2024-01-22 21:40:27,297 - INFO - Starting API 
+ 2024-01-22 21:44:10,199 - INFO - Starting API 
+ 2024-01-22 21:51:52,409 - INFO - Starting API 
+ 2024-01-22 21:52:01,188 - INFO - {'url': '/input-rectangle', 'method': 'POST'} 
+ 2024-01-22 21:54:01,260 - INFO - Starting API 
+ 2024-01-22 21:54:24,267 - INFO - {'url': '/input-rectangle', 'method': 'POST'} 
+ 2024-01-22 21:54:24,269 - INFO -  Operation Executed 
+ 2024-01-22 22:57:58,951 - INFO - Starting API 
+ 2024-01-22 22:58:26,920 - INFO - {'url': '/input-rectangle', 'method': 'POST'} 
+ 2024-01-22 22:58:26,971 - INFO -  Operation Executed 
+ 2024-01-22 23:04:34,509 - INFO - Starting API 
+ 2024-01-22 23:04:43,946 - INFO - Starting API 
+ 2024-01-22 23:05:01,396 - INFO - Starting API 
+ 2024-01-22 23:07:07,746 - INFO - Starting API 
+ 2024-01-22 23:07:15,551 - INFO - {'url': '/input-rectangle', 'method': 'POST'} 
+ 2024-01-22 23:07:15,552 - INFO -  Operation Executed 
+ 2024-01-22 23:08:18,373 - INFO - {'url': '/input-rectangle', 'method': 'POST'} 
+ 2024-01-22 23:08:18,374 - INFO -  Operation Executed 
+ 2024-01-22 23:11:12,331 - INFO - Starting API 
+ 2024-01-22 23:11:20,290 - INFO -  Operation Executed 
+ 2024-01-22 23:11:20,290 - INFO - {'url': '/input-rectangle', 'method': 'POST', 'process_time': 0.0010008811950683594} 
+ 2024-01-23 00:02:03,218 - INFO - Starting API 
+ 2024-01-23 00:02:14,912 - INFO - Starting API 
